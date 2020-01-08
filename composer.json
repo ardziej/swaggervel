@@ -1,5 +1,5 @@
 {
-    "name": "appointer/swaggervel",
+    "name": "ardziej/swaggervel",
     "description": "A great way to integrate Swagger into Laravel",
     "keywords": ["laravel", "swagger", "documentation", "api"],
     "license": "MIT",
@@ -11,13 +11,17 @@
         {
             "name": "Florian Greinus",
             "email": "florian.greinus@gmail.com"
+        },
+        {
+            "name": "Michał Ardziejewski",
+            "email": "michal.ardziejewski@web24.com.pl"
         }
     ],
     "require": {
-        "php": ">=5.6.0",
-        "illuminate/support": "^5.0|^6.0",
+        "php": ">=7.4",
+        "illuminate/support": "^6.0",
         "swagger-api/swagger-ui": "^3.1",
-        "zircote/swagger-php": "^2.0"
+        "zircote/swagger-php": "^3.0"
     },
     "autoload": {
         "psr-0": {
